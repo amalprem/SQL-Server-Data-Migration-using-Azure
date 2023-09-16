@@ -13,11 +13,15 @@ The primary goal of this project is to migrate data from an on-premise SQL Serve
    - Azure Data Factory (ADF) is used to create a pipeline that connects to the on-premise SQL Server database.
    - Selected tables from the on-premise database are extracted and loaded into Azure Data Lake Storage Gen2 (ADLS Gen2).
    - Data is initially stored in the "Bronze" container within ADLS Gen2.
+   - 
 
 2. **Azure Databricks for Data Transformation**:
    - Azure Databricks is employed to transform the data stored in the "Bronze" container.
    - Various transformations are applied to prepare the data for analytics.
    - Transformed data is then moved to both the "Silver" and "Gold" containers within ADLS Gen2.
+  
+<img width="428" alt="image" src="https://github.com/amalprem/SQL-Server-Data-Migration-using-Azure/assets/37649277/35368d12-b54e-496e-b22e-84a8ec8f5170">
+
 
 3. **Azure Synapse Analytics for Data Analytics**:
    - Azure Synapse Analytics is used to perform advanced analytics on the data.
@@ -26,14 +30,14 @@ The primary goal of this project is to migrate data from an on-premise SQL Serve
    - The Synapse Pipeline utilizes ADLS locations to identify table names and generate views.
    - A stored procedure is created to automate the view creation process.
    - Parameters are passed to the stored procedure through the Synapse Pipeline.
+     <img width="440" alt="image" src="https://github.com/amalprem/SQL-Server-Data-Migration-using-Azure/assets/37649277/5f8dd150-7bbb-4d6f-80bb-f53515f0d7e3">
+
 
 4. **Power BI for Dashboarding**:
    - Finally, the created views in Azure Synapse Analytics are connected to Power BI.
    - Power BI is used for creating dynamic and interactive dashboards to visualize and analyze the data.
 
-## Getting Started
 
-Follow these steps to set up and run the data pipeline:
 
 ### Prerequisites
 
