@@ -1,0 +1,15 @@
+Application (client) ID
+b5316da1-240e-43a5-952f-5de1c84c22a1
+Object ID
+3fe9dbe3-f0a8-41b9-81f0-fb6baf411842
+Directory (tenant) ID
+e6363ef8-b187-477c-85be-3818efbe4759
+
+
+secret key:
+DkF8Q~-~0TdO37UAHdffBK_vKpP3Z4YbyBNP6bjq
+
+
+
+databricks token:
+'dapid917b20cb666320cc0d025e05a72c64a-3'

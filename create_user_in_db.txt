@@ -1,0 +1,4 @@
+create login reader with password ='Quant2ph4'
+create user reader for login reader
+
+-- add the reader permission
